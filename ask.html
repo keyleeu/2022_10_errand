@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/styles.css" />
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Welcome to Errand App</title>
+    </head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span><a href="mypage.html"><i class="fa-solid fa-arrow-left"></i></a></span>
+        </div>
+    </div>
+    <header class="ask_form">
+        <h2>문의하기</h2>
+        <h5>문의사항이 있으실 경우 문의양식을 작성 하시거나, 하단의 전화번호로 연락 부탁드립니다.</h5>
+        <div class="settings__setting-column"></div>
+    </header>
+    <form class="contact_form">
+        <div class="row">
+          <label class="required" for="name">User Name:</label><br/>
+          <input id="name" class="input" name="name" type="text" value="" size="30" /><br/>
+        </div>
+        <div class="row">
+          <label class="required" for="email">Email:</label><br/>
+          <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+        </div>
+        <div class="row">
+          <label class="required" for="message">Your message:</label><br/>
+          <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+        </div>
+          <input id="submit_button" type="submit" value="Send email" />
+      </form>
+    <footer class="ask">
+        <i class="fa-solid fa-circle-question"></i>
+            <span>문의하기 : </span>
+            <span class="settings__setting-column">010-1234-5678</span>
+    </footer>
+    <script 
+      src="https://kit.fontawesome.com/493cc16663.js"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>
