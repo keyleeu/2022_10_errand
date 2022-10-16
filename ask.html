@@ -6,6 +6,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Welcome to Errand App</title>
+        <style>a { text-decoration: none; color: white; }a:visited { text-decoration: none; }a:hover { text-decoration: none; }a:focus { text-decoration: none; }a:hover, a:active { text-decoration: none; }
+        </style>
     </head>
 <body>
     <div class="status-bar">
@@ -14,18 +16,18 @@
         </div>
     </div>
     <header class="ask_form">
-        <h2>문의하기</h2>
-        <h5>문의사항이 있으실 경우 문의양식을 작성 하시거나, 하단의 전화번호로 연락 부탁드립니다.</h5>
+        <h2>* 문의하기</h2></br>
+        <h5> &nbsp문의사항이 있으실 경우 문의양식을 작성 하시거나, 하단의 전화번호로 연락 부탁드립니다.</h5>
         <div class="settings__setting-column"></div>
     </header>
     <form class="contact_form">
         <div class="row">
           <label class="required" for="name">User Name:</label><br/>
-          <input id="name" class="input" name="name" type="text" value="" size="30" /><br/>
+          <input id="name" class="input" name="name" type="text" value="" size="30" />
         </div>
         <div class="row">
           <label class="required" for="email">Email:</label><br/>
-          <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+          <input id="email" class="input" name="email" type="text" value="" size="30" />
         </div>
         <div class="row">
           <label class="required" for="message">Your message:</label><br/>
@@ -38,6 +40,9 @@
             <span>문의하기 : </span>
             <span class="settings__setting-column">010-1234-5678</span>
     </footer>
+    <div id="screensize">
+      <span>Your screen is too big :( </span>
+    </div>
     <script 
       src="https://kit.fontawesome.com/493cc16663.js"
       crossorigin="anonymous"

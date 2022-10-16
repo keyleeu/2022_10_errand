@@ -1,0 +1,24 @@
+.notice{
+    border:3px solid #11234b;
+    box-sizing:border-box;
+    padding: 100px 70px;
+    margin: 20% 40px;
+    position: relative;
+}
+
+.version{
+    position: fixed;
+    bottom: 0;
+    padding: 30px 100px;
+    box-sizing: border-box;
+    margin: 11% 15%;
+}
+#noiceTitle{
+    margin: 90px 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+    font-size:39px;
+}

@@ -6,6 +6,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Welcome to Errand App</title>
+        <style>a { text-decoration: none; color: white; }a:visited { text-decoration: none; }a:hover { text-decoration: none; }a:focus { text-decoration: none; }a:hover, a:active { text-decoration: none; }
+        </style>
     </head>
 <body>
     <div class="status-bar">
@@ -17,19 +19,25 @@
             <div>심부름 세부정보 : 연플에서 2500원의 커피를 구매하여 '이연세'에게 전달해주기 </div>
     </header>
     <main class="person_info">
-        <div class="person_call">마님</div>
+        <span class="person_info_full">
+            <div class="person_call">마님</div>
             <div class="person_name">이름 : 이연세</div>
-            <div class="person_rate">평점 : <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
-    </main>
-    <main class="person_info">
-        <div class="person_call">돌쇠</div>
+            <div class="person_rate">평점 : <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></i><i class="fa-regular fa-star"></i></i><i class="fa-regular fa-star"></i></i><i class="fa-regular fa-star"></i></div>
+        </span>
+        <span class="person_info_full">
+            <div class="person_call">돌쇠</div>
             <div class="person_name">이름 : 이컴정</div>
-            <div class="person_rate">평점 : <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+            <div class="person_rate">평점 : <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></i><i class="fa-regular fa-star"></i></div>
+        </span>
     </main>
     <footer class="btn">
-        <button type="button" onclick="location.href='main.html' ">거절</button>
-        <button type="button" onclick="location.href='errandongoing.html' ">진행</button>
+        <span><button id="rejectBtn" type="button" onclick="location.href='main.html' ">거절</button>
+        <button id="okBtn" type="button" onclick="location.href='errandongoing.html' ">진행</button>
+        </span>
     </footer>
+    <div id="screensize">
+        <span>Your screen is too big :( </span>
+    </div>
     <script 
       src="https://kit.fontawesome.com/493cc16663.js"
       crossorigin="anonymous"

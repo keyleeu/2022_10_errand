@@ -1,0 +1,70 @@
+.form_sign-up{
+    margin: 90px 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+    font-size:40px;
+}
+.form_signup{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+
+.form_signup input{
+    border-radius: 3px;
+    border-color: #11234b;
+    padding: 15px 0px;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.form_signup select{
+    border-radius: 1px;
+    border-color: #11234b;
+    padding: 15px 0px;
+    font-size: 18px;
+    margin-bottom: 27px;
+    cursor: pointer;
+}
+
+#signupBtn{
+    cursor: pointer;
+    font-size: 18px;     
+    flex-direction:row;
+    margin: 0px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #11234b;;
+    color: white;
+    line-height: 1.5;
+    padding: 0.7em 1.0em 0.7em;
+    align-items: center;
+}
+#sigupKakao{
+    cursor: pointer; 
+    font-size: 18px;    
+    flex-direction:row;
+    margin: 0px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fce205;
+    color: #3c1d1e;
+    line-height: 1.5;
+    padding: 0.7em 1.0em 0.7em;
+    align-items: center;
+}
+#blank{
+    border: none;
+    background-color: white;
+    padding: 0.3em 1.0em 0.3em;
+}
+
+.form_signup p{
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+    margin: 30px 0px;
+}

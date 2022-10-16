@@ -1,0 +1,33 @@
+.mypage_myinfo{
+    margin: 50px 20px; 
+    font-size: larger;
+    color: #11234b;
+}
+.myinfo_nickname{
+    font-size: 40px;
+
+}
+
+.main-mypage{
+    margin: 30px 19px;
+}
+.mypage_profile-setting i{
+    padding: 20px 30px ;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.mypage_profile-setting{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    justify-content: space-between;
+}
+
+
+.mypage_profile-setting-column:last-child{
+    opacity: 0.5;
+}
+#home1{
+    color: white;
+    cursor: pointer;
+}

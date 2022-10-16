@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to Errand App</title>
+    <style>a { text-decoration: none; color: white; }a:visited { text-decoration: none; }a:hover { text-decoration: none; }a:focus { text-decoration: none; }a:hover, a:active { text-decoration: none; }
+    </style>
 </head>
 <body>
     <header class="ratings">
@@ -13,8 +15,11 @@
     </header>
     <form class="ratings_star_text">거래 상대의 별점을 매겨주세요!</form>
     <main class="btn">
-        <button type="button" onclick="location.href='main.html' ">완료</button>
+        <button id="btncomplete" type="button" onclick="location.href='main.html' ">완료</button>
     </main>
+    <div id="screensize">
+        <span>Your screen is too big :( </span>
+    </div>
     <script 
       src="https://kit.fontawesome.com/493cc16663.js"
       crossorigin="anonymous"

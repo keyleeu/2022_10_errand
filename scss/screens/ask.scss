@@ -1,0 +1,64 @@
+.ask_form{
+    box-sizing:border-box;
+    position: relative;
+    padding: 70px 60px;
+}
+.ask_form h2{
+    font-size: x-large;
+}
+
+.contact_form{
+    box-sizing:border-box;
+    position: relative;
+    left: 25%;
+}
+
+.ask{
+    position: fixed;
+    bottom: 0;
+    padding: 30px 107px;
+    margin: 14% 10%;
+}
+
+.row{
+    box-sizing:border-box;
+    position: relative;
+    padding: 2px 0px;
+    top: -40px;
+}
+
+.row input{
+    border-radius: 3px;
+    border-color: #11234b;
+    padding: 3px 0px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.row textarea{
+    width: 53%;
+    height: 10.25em;
+    border: 2px solid #11234b;
+    border-radius: 3px;
+    font-size:smaller;
+    resize: none;
+    padding: 3px 0px;
+}
+
+#submit_button{
+    cursor: pointer;
+    font-size:12px;
+    border: none;
+    border-radius: 5px;
+    background-color:#ebcb47;
+    padding: 0.3em 2.0em 0.3em;
+    color: white;
+    line-height: 1.5;
+    flex-direction:column;
+    margin: 0px 160px;
+    top: -30px;
+    position: relative;
+}
+
+.required{
+    font-size: larger;
+}

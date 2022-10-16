@@ -1,0 +1,61 @@
+.form-errand{
+    margin: 40px 40px;
+    padding: 25px 5px;
+    border: 2px solid #11234b;
+    position: relative;
+}
+
+.form-errand:hover:before {
+	border-top: 15px solid #11234b;
+}
+
+.form-errand:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-top: 30px solid #11234b;
+	border-left: 30px solid rgba(0, 0, 0, 0);
+	width: 0;
+}
+
+.form-errand_name{
+    font-size: 30px;
+    margin: 10px 10px;
+}
+.form-errand_detail{
+    font-size: 18px;
+    margin: 20px 10px;
+}
+
+
+//errandlist & cancellederrand
+.main_errand_box{
+    margin: 40px 40px;
+    padding: 25px 5px;
+    border: 2px solid #11234b;
+    position: relative;
+}
+
+.main_errand_box:hover:before {
+	border-top: 15px solid #11234b;
+}
+
+.main_errand_box:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-top: 30px solid #11234b;
+	border-left: 30px solid rgba(0, 0, 0, 0);
+	width: 0;
+}
+
+.errand_name{
+    font-size: 30px;
+    margin: 10px 10px;
+}
+.errand_detail{
+    font-size: 18px;
+    margin: 20px 10px;
+}

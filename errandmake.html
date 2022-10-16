@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to Errand App</title>
+    <style>a { text-decoration: none; color: white; }a:visited { text-decoration: none; }a:hover { text-decoration: none; }a:focus { text-decoration: none; }a:hover, a:active { text-decoration: none; }
+    </style>
 </head>
 <body>
     <div class="status-bar">
@@ -13,53 +15,48 @@
             <span><a href="main.html"><i class="fa-solid fa-house"></i></a></span>
         </div>
     </div>
-    <form method="get" action="./view.html">
-    <table>
-        <tr>
-            <td>카테고리 선택</td>
-            <td>
+    <form class="selectcartegory">
+        <div>
+            <span>카테고리 선택
+            <span>
                 <select name="cartegory1">
-                <option value="">카테고리</option>
+                <option value="">-----------</option>
                 <option value="연플">연플</option>
                 <option value="학관">학관</option>
                 <option value="etc">Etc</option>
                 </select>
-            </td>
+            </span>
+        </div>
+        <div>
+            <span >심부름 제목<input id="errandName" type="text" name="writer"></span>
         </tr>
-        <tr>
-            <td>심부름 제목</td>
-            <td><input type="text" name="writer"></td>
-        </tr>
-        <tr>
-            <td>심부름 내용</td>
-            <td>
-                <textarea name="content"></textarea>
-            </td>
-        </tr>
-        <tr>
-            <td>심부름 비용</td>
-            <td>
-                <select name="cost">
-                <option value="">------</option>
+        </div>
+        <div>
+            <div>심부름 내용</div></br><textarea name="content"></textarea></br>
+        </div>
+        <div>
+            <span>상품 이름<input type="text" name="writer"></span>
+        </div>
+        <div>
+            <span>상품 비용<input type="text" name="writer"></span>
+        </div>
+        <div>
+            <span>심부름 비용
+                <select name="cost" id="errandCost">
+                <option value="">-----------</option>
                 <option value="cost_">1,000원</option>
                 <option value="cost_">2,000원</option>
                 <option value="cost_">3,000원</option>
                 </select>
-            </td>
-        </tr>
-        <tr>
-            <td>상품 이름</td>
-            <td><input type="text" name="writer"></td>
-        </tr>
-        <tr>
-            <td>상품 비용</td>
-            <td><input type="text" name="writer"></td>
-        </tr>
-    </table>
+            </span>
+        </div>
     </form>
     <footer class="btn">
-        <button type="button" onclick="location.href='main.html' ">등록</button>
+        <button id="btncomplete" type="button" onclick="location.href='main.html' ">등록</button>
     </footer>
+    <div id="screensize">
+        <span>Your screen is too big :( </span>
+    </div>
     <script 
       src="https://kit.fontawesome.com/493cc16663.js"
       crossorigin="anonymous"

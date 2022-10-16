@@ -1,0 +1,31 @@
+@import "./reset.scss";
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+
+//Components
+@import "./components/nav-bar.scss";
+@import "./components/screensize.scss";
+@import "./components/status-bar.scss";
+@import "./components/btn.scss";
+@import "./components/errandform.scss";
+//Screens
+@import "./screens/index.scss";
+@import "./screens/termsofagree.scss";
+@import "./screens/signup.scss";
+@import "./screens/main.scss";
+@import "./screens/search.scss";
+@import "./screens/rating.scss";
+@import "./screens/errandongoing.scss";
+@import "./screens/errandconfirm.scss";
+@import "./screens/category.scss";
+@import "./screens/errandmake.scss";
+@import "./screens/profilesetting.scss";
+@import "./screens/mypage.scss";
+@import "./screens/errandlist.scss";
+@import "./screens/ternsofservice.scss";
+@import "./screens/ask.scss";
+    
+body{
+    font-family: 'Poor Story', cursive;
+    background-color:  white;
+    
+}

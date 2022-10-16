@@ -6,85 +6,91 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to Errand App</title>
+    <style>a { text-decoration: none; color: black; }a:visited { text-decoration: none; }a:hover { text-decoration: none; }a:focus { text-decoration: none; }a:hover, a:active { text-decoration: none; }
+    </style>
 </head>
 <body>
     <div class="status-bar">
         <div class="status-bar__column">
-            <span><a href="main.html"><i class="fa-solid fa-house"></i></a></span>
+            <span id="home1" onclick="location.href='main.html' "><i class="fa-solid fa-house"></i></span>
         </div>
     </div>
     <header class="mypage_myinfo">
         <div class="myinfo">
-            <h1 class="myinfo_nickname">이연세</h1>
+            <h1 class="myinfo_nickname">이연세</h1></br>
         </div>
         <div class="myinfo">
-            <h3 class="myinfo_nickname_rate">평점 : <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></h3>
+            <h3 class="myinfo_nickname_rate">평점 : <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></h3>
         </div>
     </header>
-    <div class="mypage-column"></div>
     <main class="main-mypage">
         <ul class="mypage-list">
             <li class="mypage_profile-setting">
-                <div class="mypage_profile-setting">
+                <div class="mypage_profile-setting-column">
                 <a class="mypage_link" href="profilesetting.html">
                 <i class="fa-regular fa-user"></i>
                 <span>프로필 설정</span>
                 </div>
-                <div class="mypage-column"></div>
+                <div class="mypage_profile-setting-column"></div>
             </li>
             <li class="mypage_profile-setting">
-                <div class="mypage_profile-setting">
+                <div class="mypage_profile-setting-column">
                 <a class="mypage_link" href="errandlist.html">
                 <i class="fa-solid fa-list"></i>
                 <span>심부름 내역</span>
                 </div>
-                <div class="mypage-column"></div>
+                <div class="mypage_profile-setting-column"></div>
             </li>
             <li class="mypage_profile-setting">
-                <div class="mypage_profile-setting">
+                <div class="mypage_profile-setting-column">
                 <a class="mypage_link" href="cancellederrand.html">
                 <i class="fa-solid fa-ban"></i>
                 <span>취소된 심부름</span>
                 </div>
-                <div class="mypage-column"></div>
+                <div class="mypage_profile-setting-column"></div>
             </li>
             <li class="mypage_profile-setting">
-                <div class="mypage_profile-setting">
+                <div class="mypage_profile-setting-column">
                 <a class="mypage_link" href="termsofservice.html">
                 <i class="fa-regular fa-note-sticky"></i>
                 <span>공지사항</span>
                 </div>
-                <div class="mypage-column"></div>
+                <div class="mypage_profile-setting-column"></div>
             </li>
             <li class="mypage_profile-setting">
-                <div class="mypage_profile-setting">
+                <div class="mypage_profile-setting-column">
                 <a class="mypage_link" href="ask.html">
                 <i class="fa-solid fa-bullhorn"></i>
                 <span>문의하기</span>
                 </div>
-                <div class="mypage-column"></div>
+                <div class="mypage_profile-setting-column"></div>
             </li>
         </ul>
     </main>
-    <nav class="nav">
-        <ul class="nav__list">
-            <li class="nav__btn">
-                <a class="nav__link" href="main.html"><i class="fa-solid fa-house"></i></a>
+    <nav class="nav1">
+        <ul class="nav__list1">
+            <li class="nav__btn1">
+                <a class="nav__link" href="main.html"><i class="fa-solid fa-house fa-2x"></i></a>
             </li>
-            <li class="nav__btn">
+            <li class="nav__btn2">
                 <a class="nav__link" href="errandmake.html">
-                    <i class="fa-solid fa-pencil"></i>
+                    <span class="nav__circle badge">
+                    <i class="fa-solid fa-pencil fa-2x"></i></span>
             </li>
-            <li class="nav__btn">
-                <a class="nav__link" href="mypage.html"><i class="fa-solid fa-user"></i></a>
+            <li class="nav__btn3">
+                <a class="nav__link" href="mypage.html"><i class="fa-solid fa-user fa-2x"></i></a>
             </li>
-            <li class="nav__btn">
+            <li class="nav__btn4">
                 <a class="nav__link" href="search.html">
-                    <span class="nav__circle"></span>  
-                <i class="fas fa-search"></i></a>
+                    <i class="fas fa-search fa-2x"></i>
+                </a>
             </li>
+            
         </ul>
     </nav>
+    <div id="screensize">
+        <span>Your screen is too big :( </span>
+    </div>
     <script 
       src="https://kit.fontawesome.com/493cc16663.js"
       crossorigin="anonymous"

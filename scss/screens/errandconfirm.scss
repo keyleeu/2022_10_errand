@@ -1,0 +1,17 @@
+.person_info{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 79px;
+}
+.person_info_full{
+    float:left;
+    height:50%;
+    margin-bottom:-10px;
+    
+}
+.person_call{
+    display: flex;
+    flex-direction: column;
+    margin-bottom:30px;
+}
+

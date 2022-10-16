@@ -6,14 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to Errand App</title>
+    <style>a { text-decoration: none; color: white; }a:visited { text-decoration: none; }a:hover { text-decoration: none; }a:focus { text-decoration: none; }a:hover, a:active { text-decoration: none; }
+    </style>
 </head>
 <body>
     <header class="form_sign-in">
-        <h1 class="form_sign-in-title">매?</h1>
+        <h1 class="form_sign-in-title"><img src="매.png" alt="My Image"></h1>
     </header>
     <form class="sign-in-title">
-        <button type="button" onclick="location.href='termsofagree.html' "><i class="fa-solid fa-comment"></i>Sign in with Kakao</button>
+        <button id=loginBtn type="button" onclick="location.href='termsofagree.html' "><i class="fa-solid fa-comment"> Sign&nbsp&nbspin&nbsp&nbspwith&nbsp&nbspKakao</i></button>
     </form>
+    <div id="screensize">
+        <span>Your screen is too big :( </span>
+    </div>
     <script 
       src="https://kit.fontawesome.com/493cc16663.js"
       crossorigin="anonymous"

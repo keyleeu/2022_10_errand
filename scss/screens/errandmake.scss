@@ -1,0 +1,58 @@
+.selectcartegory{
+    position: relative;
+    padding: 30px 30px;
+    margin: 0px 10px;
+}
+
+.selectcartegory input{
+    border-radius: 3px;
+    border-color: #11234b;
+    padding: 4px 20px;
+    font-size: 18px;
+    margin-bottom: 40px;
+    margin-left: 35px;
+}
+#errandName{
+    border-radius: 3px;
+    border-color: #11234b;
+    padding: 4px 20px;
+    font-size: 18px;
+    margin-bottom: 40px;
+    margin-left: 21px; 
+}
+.selectcartegory select{
+    border-radius: 3px;
+    border-color: #11234b;
+    padding: 3px 20px;
+    font-size: 18px;
+    margin-bottom: 40px;
+    border: 2px solid;
+    margin-left: 5px;
+}
+
+#errandCost{
+    border-radius: 3px;
+    border-color: #11234b;
+    padding: 3px 20px;
+    font-size: 18px;
+    margin-bottom: 40px;
+    border: 2px solid;
+    margin-left: 19px;
+}
+
+
+.selectcartegory textarea{
+    width: 80%;
+    height: 10.25em;
+    border: 2px solid #11234b;
+    border-radius: 3px;
+    margin: 0px 11px;
+    font-size:smaller;
+    resize: none;
+    padding: 20px 1px;
+    position: relative;
+    left: 60px;
+    bottom: 34px;
+    margin-left: 30px;
+    
+}

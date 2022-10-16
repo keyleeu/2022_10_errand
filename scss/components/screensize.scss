@@ -1,0 +1,19 @@
+#screensize{
+    position: absolute;
+    z-index: 99;
+    height: 100vh;
+    background-color: #11234b;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: #ebcb47;
+    top: 0;
+}
+
+@media screen and (max-width:600px) {
+  #screensize {
+    display: none;
+  }   
+}

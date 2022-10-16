@@ -1,0 +1,70 @@
+.form_sign-in-title {
+    display: inline-block;
+    padding: 10px;
+    animation: fadein 6s;
+    -moz-animation: fadein 6s; /* Firefox */
+    -webkit-animation: fadein 6s; /* Safari and Chrome */
+  }
+  
+  .sign-in-title
+    {
+    display: inline-block;
+    padding: 10px;
+    animation: fadein 6s;
+    -moz-animation: fadein 6s; /* Firefox */
+    -webkit-animation: fadein 6s; /* Safari and Chrome */
+    }
+  @keyframes fadein {
+      from {
+          opacity: 0;
+      }
+      to {
+          opacity: 1;
+      }
+  }
+  @-moz-keyframes fadein { /* Firefox */
+      from {
+          opacity: 0;
+      }
+      to {
+          opacity: 1;
+      }
+  }
+  @-webkit-keyframes fadein { /* Safari and Chrome */
+      from {
+          opacity: 0;
+      }
+      to {
+          opacity: 1;
+      }
+  }
+.form_sign-in{
+    margin: 180px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+}
+.sign-in-title{
+    margin-top: -120px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+}
+
+#loginBtn{
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    flex-direction:column;
+    margin: 0px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fce205;
+    color: #3c1d1e;
+    line-height: 1.5;
+    padding: 0.7em 1.0em 0.7em;
+}

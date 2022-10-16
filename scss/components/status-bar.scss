@@ -1,0 +1,14 @@
+.status-bar{
+    display: flex;
+    justify-content:space-between;
+    padding:5px 3px;
+    background-color: #11234b;
+    height: 30px;
+}
+.status-bar__column{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    margin: 0px 18px;
+}
+

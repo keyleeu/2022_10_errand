@@ -6,6 +6,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Welcome to Errand App</title>
+        <style>a { text-decoration: none; color: white; }a:visited { text-decoration: none; }a:hover { text-decoration: none; }a:focus { text-decoration: none; }a:hover, a:active { text-decoration: none; }
+        </style>
     </head>
 <body>
     <div class="status-bar">
@@ -16,18 +18,21 @@
     <header class="form-errand">
         <h1 class="form-errand_name">연플 커피</h1>
             <div class="form-errand_detail">
-            <div>심부름 내용 : 연플에서 커피구매하여 전달하기 </div>
-            <div>카테고리 : 연플</div>
-            <div>상품이름 : 커피 </div>
-            <div>상품 비용 : 2500원</div>
-            <div> 구매자 정보 
+            <div>심부름 내용 : 연플에서 커피구매하여 전달하기 </div></br>
+            <div>카테고리 : 연플</div></br>
+            <div>상품이름 : 커피 </div></br>
+            <div>상품 비용 : 2500원</div></br>
+            <div> 구매자 정보</div></br>    
                     <li>이름 : 이연세</li>
-                    <li>별점 : <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></li>
+                    <li>별점 : <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></i><i class="fa-regular fa-star"></i></i><i class="fa-regular fa-star"></i></i><i class="fa-regular fa-star"></i></li>
             </div>
     </header>
     <footer class="btn">
-        <button type="button" onclick="location.href='errandconfirm.html' ">수락</button>
+        <button id="btncomplete" type="button" onclick="location.href='errandconfirm.html' ">수락</button>
     </footer>
+    <div id="screensize">
+        <span>Your screen is too big :( </span>
+    </div>
     <script 
       src="https://kit.fontawesome.com/493cc16663.js"
       crossorigin="anonymous"

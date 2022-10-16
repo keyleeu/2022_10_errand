@@ -1,0 +1,91 @@
+.btn{
+    margin-top: 150px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+#btncomplete{
+    font-size:18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color:#ebcb47;
+    padding: 0.3em 3.0em 0.3em;
+    color: white;
+    line-height: 1.5;
+    flex-direction:column;
+    margin: 0px 30px;
+}
+
+#agreeBtn{
+    font-size:18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color:#ebcb47;
+    padding: 0.3em 3.0em 0.3em;
+    color: white;
+    line-height: 1.5;
+    flex-direction:column;
+    margin: 0px 30px;
+}
+#disagreeBtn{
+    font-size:18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color:#11234b;
+    padding: 0.3em 2.0em 0.3em;
+    color: white;
+    line-height: 1.5;
+    flex-direction:column;
+    margin: 0px 30px;
+}
+.agrBtn{
+    margin: 70px 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+    font-size:smaller;
+}
+
+#rejectBtn{
+    font-size:18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color:#11234b;
+    padding: 0.3em 2.0em 0.3em;
+    color: white;
+    line-height: 1.5;
+    flex-direction:column;
+    margin: 0px 30px;
+}
+#okBtn{
+    font-size:18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color:#ebcb47;
+    padding: 0.3em 2.0em 0.3em;
+    color: white;
+    line-height: 1.5;
+    flex-direction:column;
+    margin: 0px 30px;
+}
+#profileBttn{
+    cursor: pointer;
+    font-size:18px;
+    border: none;
+    border-radius: 5px;
+    background-color:#ebcb47;
+    padding: 0.3em 2.0em 0.3em;
+    color: white;
+    line-height: 1.5;
+    flex-direction:column;
+    margin: 10px 190px;
+    position: relative;
+}

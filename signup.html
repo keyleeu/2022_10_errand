@@ -9,21 +9,22 @@
 </head>
 <body>
     <header class="form_sign-up">
-        <h1 class="form_sign-up-title">SIGN UP</h1>
+        <h1 class="form_sign-up-title"><i class="fa-solid fa-clipboard"> sign&nbsp&nbspup&nbsp</i></h1>
     </header>
     <form class="form_signup">
-        <input name="username" type="text" placeholder="Username"/>
-        <input name="phonenumber" type="text" placeholder="Phone Number"/>
-        <input name="password1" type="password" placeholder="Password"/>
-        <input name="password2" type="password" placeholder="confirm password"/>
+        <input name="username" type="text" placeholder="  Username"/>
+        <input name="phonenumber" type="text" placeholder="  Phone Number"/>
+        <input name="password1" type="password" placeholder="  Password"/>
+        <input name="password2" type="password" placeholder="  Confirm password"/>
         <select name="gender">
             <option value="">Select Your Gender</option>
             <option value="male">Male</option>
             <option value="female">Female</option>
             <option value="etc">Etc</option>
         </select>
-        <input type="submit" value="Sign up"/>
-        <button type="button" onclick="location.href='main.html' "><i class="fa-solid fa-comment"></i>Sign up with Kakao</button>
+        <button id="signupBtn" type="button" onclick="location.href='main.html' "><i class="fa-solid fa-clipboard"></i> Sign Up</button>
+        <button id="blank" type="button" onclick="location.href='#' "></button>
+        <button id="sigupKakao" type="button" onclick="location.href='main.html' "><i class="fa-solid fa-comment"></i> Sign up with Kakao</button>
           <p>
             <span>
                 Already have an account?
@@ -33,6 +34,9 @@
             </a>
           </p>
     </form>
+    <div id="screensize">
+      <span>Your screen is too big :( </span>
+    </div>
     <script 
       src="https://kit.fontawesome.com/493cc16663.js"
       crossorigin="anonymous"
