@@ -71,8 +71,8 @@ table {
 
 .nav__circle {
   position: absolute;
-  left: -30px;
-  bottom: -45px;
+  left: -20px;
+  bottom: -50px;
   border-radius: 50%;
   width: 125px;
   height: 125px;
@@ -80,8 +80,8 @@ table {
 
 .badge {
   background-color: #ebcb47;
-  width: 130px;
-  height: 130px;
+  width: 110px;
+  height: 110px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -145,11 +145,15 @@ table {
   }
 }
 .status-bar {
+  position: fixed;
+  width: 100%;
+  top: 0;
   display: flex;
+  z-index: 1;
   justify-content: space-between;
   padding: 5px 3px;
   background-color: #11234b;
-  height: 30px;
+  height: 35px;
 }
 
 .status-bar__column {
@@ -535,8 +539,8 @@ ul.agree_form-box {
 }
 
 .me {
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
 }
 
 .search-bar {
@@ -569,7 +573,7 @@ ul.agree_form-box {
 }
 
 .search-bar__input {
-  width: 90%;
+  width: 93%;
   height: 30px;
   border-radius: 3px;
 }
