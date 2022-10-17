@@ -153,7 +153,7 @@ table {
   justify-content: space-between;
   padding: 5px 3px;
   background-color: #11234b;
-  height: 35px;
+  height: 50px;
 }
 
 .status-bar__column {
@@ -539,8 +539,8 @@ ul.agree_form-box {
 }
 
 .me {
-  height: 40px;
-  width: 40px;
+  height: 60px;
+  width: 60px;
 }
 
 .search-bar {
@@ -641,6 +641,7 @@ input::-webkit-search-results-decoration {
   color: white;
   justify-content: space-between;
   font-size: 20px;
+  margin-top: 10px;
   position: relative;
   top: 5px;
 }
