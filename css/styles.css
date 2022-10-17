@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poor+Story&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poor+Story&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -56,6 +58,7 @@ table {
   padding: 20px 50px;
   box-sizing: border-box;
   border-top: 1px solid rgba(121, 121, 121, 0.3);
+  box-shadow: 5px 5px 10px -1px #11234b;
 }
 
 .nav__list {
@@ -75,6 +78,7 @@ table {
   border-radius: 50%;
   width: 125px;
   height: 125px;
+  box-shadow: 1px 5px -5px -1px #ebcb47;
 }
 
 .badge {
@@ -153,6 +157,7 @@ table {
   padding: 5px 3px;
   background-color: #11234b;
   height: 50px;
+  box-shadow: 5px 5px 10px -1px #11234b;
 }
 
 .status-bar__column {
@@ -180,6 +185,7 @@ table {
   line-height: 1.5;
   flex-direction: column;
   margin: 0px 30px;
+  box-shadow: 5px 5px 10px -1px #ebcb47;
 }
 
 #agreeBtn {
@@ -193,6 +199,7 @@ table {
   line-height: 1.5;
   flex-direction: column;
   margin: 0px 30px;
+  box-shadow: 5px 5px 10px -1px #ebcb47;
 }
 
 #disagreeBtn {
@@ -206,6 +213,7 @@ table {
   line-height: 1.5;
   flex-direction: column;
   margin: 0px 30px;
+  box-shadow: 5px 5px 10px -1px #11234b;
 }
 
 .agrBtn {
@@ -216,6 +224,7 @@ table {
   align-items: center;
   font-weight: 600;
   font-size: smaller;
+  box-shadow: 5px 5px 10px -1px #ebcb47;
 }
 
 #rejectBtn {
@@ -229,6 +238,7 @@ table {
   line-height: 1.5;
   flex-direction: column;
   margin: 0px 30px;
+  box-shadow: 5px 5px 10px -1px #11234b;
 }
 
 #okBtn {
@@ -242,6 +252,7 @@ table {
   line-height: 1.5;
   flex-direction: column;
   margin: 0px 30px;
+  box-shadow: 5px 5px 10px -1px #ebcb47;
 }
 
 #profileBttn {
@@ -256,6 +267,7 @@ table {
   flex-direction: column;
   margin: 10px 190px;
   position: relative;
+  box-shadow: 5px 5px 10px -1px #ebcb47;
 }
 
 .form-errand {
@@ -263,6 +275,7 @@ table {
   padding: 25px 5px;
   border: 2px solid #11234b;
   position: relative;
+  box-shadow: 5px 5px 10px -1px #11234b;
 }
 
 .form-errand:hover:before {

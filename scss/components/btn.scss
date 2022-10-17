@@ -16,6 +16,7 @@
     line-height: 1.5;
     flex-direction:column;
     margin: 0px 30px;
+    box-shadow: 5px 5px 10px -1px #ebcb47;
 }
 
 #agreeBtn{
@@ -29,6 +30,7 @@
     line-height: 1.5;
     flex-direction:column;
     margin: 0px 30px;
+    box-shadow: 5px 5px 10px -1px #ebcb47;
 }
 #disagreeBtn{
     font-size:18px;
@@ -41,6 +43,7 @@
     line-height: 1.5;
     flex-direction:column;
     margin: 0px 30px;
+    box-shadow: 5px 5px 10px -1px #11234b;
 }
 .agrBtn{
     margin: 70px 10px;
@@ -50,6 +53,7 @@
     align-items: center;
     font-weight: 600;
     font-size:smaller;
+    box-shadow: 5px 5px 10px -1px #ebcb47;
 }
 
 #rejectBtn{
@@ -63,6 +67,7 @@
     line-height: 1.5;
     flex-direction:column;
     margin: 0px 30px;
+    box-shadow: 5px 5px 10px -1px #11234b;
 }
 #okBtn{
     font-size:18px;
@@ -75,6 +80,7 @@
     line-height: 1.5;
     flex-direction:column;
     margin: 0px 30px;
+    box-shadow: 5px 5px 10px -1px #ebcb47;
 }
 #profileBttn{
     cursor: pointer;
@@ -88,4 +94,5 @@
     flex-direction:column;
     margin: 10px 190px;
     position: relative;
+    box-shadow: 5px 5px 10px -1px #ebcb47;
 }
