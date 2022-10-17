@@ -33,6 +33,7 @@
     padding: 3px 0px;
     font-size: 14px;
     margin-bottom: 10px;
+    box-shadow: 1px 1px 5px -1px #11234b;
 }
 .row textarea{
     width: 53%;
@@ -42,6 +43,7 @@
     font-size:smaller;
     resize: none;
     padding: 3px 0px;
+    box-shadow: 1px 1px 5px -1px #11234b;
 }
 
 #submit_button{
@@ -57,6 +59,7 @@
     margin: 0px 160px;
     top: -30px;
     position: relative;
+    box-shadow: 5px 5px 10px -1px #ebcb47;
 }
 
 .required{

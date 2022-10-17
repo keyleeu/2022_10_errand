@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poor+Story&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poor+Story&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -58,7 +58,7 @@ table {
   padding: 20px 50px;
   box-sizing: border-box;
   border-top: 1px solid rgba(121, 121, 121, 0.3);
-  box-shadow: 5px 5px 10px -1px #11234b;
+  box-shadow: 3px 3px 10px #11234b;
 }
 
 .nav__list {
@@ -78,7 +78,7 @@ table {
   border-radius: 50%;
   width: 125px;
   height: 125px;
-  box-shadow: 1px 5px -5px -1px #ebcb47;
+  box-shadow: 3px 3px 10px #11234b;
 }
 
 .badge {
@@ -224,7 +224,6 @@ table {
   align-items: center;
   font-weight: 600;
   font-size: smaller;
-  box-shadow: 5px 5px 10px -1px #ebcb47;
 }
 
 #rejectBtn {
@@ -280,6 +279,7 @@ table {
 
 .form-errand:hover:before {
   border-top: 15px solid #11234b;
+  box-shadow: 5px 5px 10px -1px #11234b;
 }
 
 .form-errand:before {
@@ -290,6 +290,7 @@ table {
   border-top: 30px solid #11234b;
   border-left: 30px solid rgba(0, 0, 0, 0);
   width: 0;
+  box-shadow: 5px 5px 10px -1px #11234b;
 }
 
 .form-errand_name {
@@ -307,10 +308,12 @@ table {
   padding: 25px 5px;
   border: 2px solid #11234b;
   position: relative;
+  box-shadow: 5px 5px 10px -1px #11234b;
 }
 
 .main_errand_box:hover:before {
   border-top: 15px solid #11234b;
+  box-shadow: 5px 5px 10px -1px #11234b;
 }
 
 .main_errand_box:before {
@@ -321,6 +324,7 @@ table {
   border-top: 30px solid #11234b;
   border-left: 30px solid rgba(0, 0, 0, 0);
   width: 0;
+  box-shadow: 5px 5px 10px -1px #11234b;
 }
 
 .errand_name {
@@ -497,6 +501,7 @@ ul.agree_form-box {
   padding: 15px 0px;
   font-size: 18px;
   margin-bottom: 25px;
+  box-shadow: 1px 1px 5px -1px #11234b;
 }
 
 .form_signup select {
@@ -506,6 +511,7 @@ ul.agree_form-box {
   font-size: 18px;
   margin-bottom: 27px;
   cursor: pointer;
+  box-shadow: 1px 1px 5px -1px #11234b;
 }
 
 #signupBtn {
@@ -534,6 +540,7 @@ ul.agree_form-box {
   line-height: 1.5;
   padding: 0.7em 1em 0.7em;
   align-items: center;
+  box-shadow: 5px 5px 10px -1px #fce205;
 }
 
 #blank {
@@ -715,6 +722,7 @@ input::-webkit-search-results-decoration {
   font-size: 18px;
   margin-bottom: 40px;
   margin-left: 35px;
+  box-shadow: 1px 1px 5px -1px #11234b;
 }
 
 #errandName {
@@ -734,6 +742,7 @@ input::-webkit-search-results-decoration {
   margin-bottom: 40px;
   border: 2px solid;
   margin-left: 5px;
+  box-shadow: 1px 1px 5px -1px #11234b;
 }
 
 #errandCost {
@@ -759,6 +768,7 @@ input::-webkit-search-results-decoration {
   left: 60px;
   bottom: 34px;
   margin-left: 30px;
+  box-shadow: 1px 1px 5px -1px #11234b;
 }
 
 #profilesetting_header {
@@ -824,6 +834,7 @@ input::-webkit-search-results-decoration {
   border-radius: 5px;
   background-color: #ebcb47;
   color: white;
+  box-shadow: 5px 5px 10px -1px #ebcb47;
 }
 
 .make_post button {
@@ -836,6 +847,7 @@ input::-webkit-search-results-decoration {
   border-radius: 5px;
   background-color: #ebcb47;
   color: white;
+  box-shadow: 5px 5px 10px -1px #ebcb47;
 }
 
 .notice {
@@ -844,6 +856,7 @@ input::-webkit-search-results-decoration {
   padding: 100px 70px;
   margin: 20% 40px;
   position: relative;
+  box-shadow: 5px 5px 10px -1px #11234b;
 }
 
 .version {
@@ -900,6 +913,7 @@ input::-webkit-search-results-decoration {
   padding: 3px 0px;
   font-size: 14px;
   margin-bottom: 10px;
+  box-shadow: 1px 1px 5px -1px #11234b;
 }
 
 .row textarea {
@@ -910,6 +924,7 @@ input::-webkit-search-results-decoration {
   font-size: smaller;
   resize: none;
   padding: 3px 0px;
+  box-shadow: 1px 1px 5px -1px #11234b;
 }
 
 #submit_button {
@@ -925,6 +940,7 @@ input::-webkit-search-results-decoration {
   margin: 0px 160px;
   top: -30px;
   position: relative;
+  box-shadow: 5px 5px 10px -1px #ebcb47;
 }
 
 .required {
@@ -932,7 +948,7 @@ input::-webkit-search-results-decoration {
 }
 
 body {
-  font-family: "Poor Story", cursive;
+  font-family: "Gowun Dodum", sans-serif;
   background-color: white;
 }
 
