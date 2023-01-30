@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poor+Story&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Noto+Sans+KR&display=swap');
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -29,6 +28,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
   line-height: 1;
+  background-color: #EFEFEF;
 }
 
 ol, ul {
@@ -54,16 +54,15 @@ table {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #11234b;
   padding: 20px 50px;
   box-sizing: border-box;
-  border-top: 1px solid rgba(121, 121, 121, 0.3);
-  box-shadow: 3px 3px 10px #11234b;
+
 }
 
 .nav__list {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  margin-right: 60px;
 }
 
 .nav__link {
@@ -74,11 +73,11 @@ table {
 .nav__circle {
   position: absolute;
   left: -20px;
-  bottom: -50px;
+  bottom: -10px;
   border-radius: 50%;
   width: 125px;
   height: 125px;
-  box-shadow: 3px 3px 10px #11234b;
+  box-shadow: 5px 5px 10px -1px #f1e2a8;
 }
 
 .badge {
@@ -142,7 +141,7 @@ table {
   top: 0;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 2000px) {
   #screensize {
     display: none;
   }
@@ -155,9 +154,9 @@ table {
   z-index: 1;
   justify-content: space-between;
   padding: 5px 3px;
-  background-color: #11234b;
-  height: 50px;
-  box-shadow: 5px 5px 10px -1px #11234b;
+  background-color: #003876;
+  height: 60px;
+  box-shadow: 5px 5px 10px -1px #003876;
 }
 
 .status-bar__column {
@@ -179,13 +178,13 @@ table {
   cursor: pointer;
   border: none;
   border-radius: 5px;
-  background-color: #ebcb47;
+  background-color: #FFC240;
   padding: 0.3em 3em 0.3em;
   color: white;
   line-height: 1.5;
   flex-direction: column;
   margin: 0px 30px;
-  box-shadow: 5px 5px 10px -1px #ebcb47;
+  box-shadow: 5px 5px 10px -1px #FFC240;
 }
 
 #agreeBtn {
@@ -270,35 +269,35 @@ table {
 }
 
 .form-errand {
-  margin: 40px 40px;
-  padding: 25px 5px;
-  border: 2px solid #11234b;
+  color: #003876;
+  padding: 10px 20px 5px;
+  border-top: 0.5px solid #003876;
   position: relative;
-  box-shadow: 5px 5px 10px -1px #11234b;
 }
 
 .form-errand:hover:before {
-  border-top: 15px solid #11234b;
-  box-shadow: 5px 5px 10px -1px #11234b;
+  border-top: 15px solid #003876;
+  box-shadow: 5px 5px 10px -1px #003876;
 }
 
 .form-errand:before {
-  content: "";
   position: absolute;
   top: 0;
   right: 0;
-  border-top: 30px solid #11234b;
+  border-top: 30px solid #003876;
   border-left: 30px solid rgba(0, 0, 0, 0);
   width: 0;
-  box-shadow: 5px 5px 10px -1px #11234b;
+  box-shadow: 5px 5px 10px -1px #003876;
 }
 
 .form-errand_name {
+  color: #003876;
   font-size: 30px;
   margin: 10px 10px;
 }
 
 .form-errand_detail {
+  color: #003876;
   font-size: 18px;
   margin: 20px 10px;
 }
@@ -333,8 +332,8 @@ table {
 }
 
 .errand_detail {
-  font-size: 18px;
-  margin: 20px 10px;
+  font-size: 15px;
+  margin: flex;
 }
 
 .form_sign-in-title {
@@ -563,6 +562,7 @@ ul.agree_form-box {
 }
 
 .search-bar {
+  position: fixed;
   margin-top: 60px;
   display: flex;
   flex-direction: row;
@@ -606,26 +606,26 @@ ul.agree_form-box {
 
 .search-bar_xl__column input {
   all: unset;
-  padding: 20px 50px;
+  padding: 20px 70px;
   border-radius: 9px;
   background-color: #ebcb47;
   margin-bottom: 5px;
   font-size: 20px;
   width: 80%;
   position: relative;
-  left: -19px;
+  left: -30px;
   box-shadow: 5px 5px 10px -1px #f1e2a8;
   caret-color: #11234b;
 }
 
 .search-bar_xl__column a {
   all: unset;
-  padding: 1px 18px;
+  padding: 1px 10px;
   font-size: 20px;
   width: 90%;
   cursor: pointer;
-  top: -46px;
-  left: 290px;
+  top: -49px;
+  left: 350px;
   color: white;
   position: relative;
 }
@@ -948,8 +948,7 @@ input::-webkit-search-results-decoration {
 }
 
 body {
-  font-family: "Gowun Dodum", sans-serif;
-  background-color: white;
+  font-family: "Noto Sans KR", sans-serif;
+  background-color: #FFEFD6;
 }
-
 /*# sourceMappingURL=styles.css.map */
